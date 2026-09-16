@@ -33,8 +33,18 @@ gap: 0;
     color: #4d5ae5;
 }
 .footer-container {
-  display: flex;
-align-items: flex-start;
-flex-direction: column;
-gap: 16px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.footer-social {
+    margin-left: 120px;
+}
+.footer-social-title {
+    margin: 0 0 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
 }

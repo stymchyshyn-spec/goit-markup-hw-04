@@ -29,3 +29,18 @@ gap: 24px;
 .features {
     padding: 120px 0;
 }
+.icons-feature {
+    background-color: #f4f4fd;
+}
+.icones {
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+gap: 0;
+border: 1px solid #8e8f99;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+margin: 8px;
+}
