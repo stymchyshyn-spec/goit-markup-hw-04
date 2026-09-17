@@ -64,7 +64,7 @@ padding: 32px 16px; }
 .team-icon {
     width: 16px;
     height: 16px;
-    color: #ffffff;
+    color: #f4f4fd;
 }
 
 .team-icons-box {
@@ -74,17 +74,18 @@ justify-content: flex-start;
 flex-direction: row;
 gap: 24px;
 }
-.team-icon-item {
+.team-icon-item a {
     width: 40px;
     height: 40px;
-    background: #4d5ae5;
+    background-color: #4d5ae5;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.team-icon-item:hover,
-.team-icon-item:focus {
-    background: #404bbf;;
+
+.team-icon-item a:hover,
+.team-icon-item a:focus {
+    background-color: #404bbf;
 }
