@@ -3,6 +3,7 @@
 padding: 100px 0;
 }
 
+
 .footer-description {
     font-family: "Roboto", sans-serif;
 font-weight: 400;
@@ -47,4 +48,25 @@ gap: 0;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #ffffff;
+}
+.footer-social-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-social-list li a {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-list li a:hover,
+.footer-social-list li a:focus {
+    background-color: #31d0aa;
 }
