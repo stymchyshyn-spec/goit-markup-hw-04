@@ -54,7 +54,7 @@ gap: 0;
     gap: 16px;
 }
 
-.footer-social-list li a {
+.l {
     width: 40px;
     height: 40px;
     background-color: #4d5ae5;
@@ -66,7 +66,7 @@ gap: 0;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.footer-social-list li a:hover,
-.footer-social-list li a:focus {
+.l:hover,
+.l:focus {
     background-color: #31d0aa;
 }
